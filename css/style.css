@@ -1,0 +1,348 @@
+/*Body*/
+
+body {
+    margin: 0px;
+    border: 0px;
+}
+/*#body_forum{
+    text-align: center;
+}*/
+#body_forum .categorie{
+    margin-left: 15%;
+    /*background-color: aquamarine;*/
+    width: 70%; 
+}
+#body_forum .categorie input{
+    margin-top: 2%;
+
+}
+.categorie p{
+    width:100%;
+    height: 100%;
+    /*background-color: aquamarine;*/
+}
+/*Menu*/
+.navbar {
+    overflow: hidden;
+    background-color: #333; 
+  }
+  #menumenu{
+      display: none;
+  }
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+    .menunu a span{
+        font-size: 90%;
+    }
+
+
+/*menu_nav*/
+
+#entete {
+    text-align: center;
+    line-height: 1px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#resultat div {
+    margin: 3%;
+    height: 50px;
+    background-color: gray;
+    text-align: center;
+}
+
+#resultat div a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+.nav-link, .form-inline{
+    margin-top: 2%;
+}
+
+/*Carousel*/
+
+.carousel-caption {
+    color: black;
+}
+
+.position-carousel {
+    margin-top: -20px;
+}
+
+.carousel-inner div img{
+    width: 100%;
+}
+
+input {
+    width: 25%;
+}
+
+#visiteur {
+    margin-left: 2px;
+}
+
+#titre_form {
+    text-align: center;
+}
+
+
+/*Graph*/
+
+#blog1 {
+    background-color: rgba(15,235,15,0.4);
+    height: 1000px;
+}
+
+#blog2 {
+    margin-left: 2px;
+}
+
+#design {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#design #model1 {
+    height: 40px;
+    background-color: rgba(46, 21, 78, 0.8);
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+#design #model2 {
+    height: 40px;
+    background-color: skyblue;
+}
+
+#design #model3 {
+    height: 40px;
+    background-color: lightgreen;
+    margin-left: 8%;
+}
+/*
+#graph_graph div{
+    width: 200px;
+}
+*/
+
+/*Page1*/
+
+/*#p1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: yellow;
+}
+
+#p2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: blue;
+}
+
+#p3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+#p4 {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background: red;
+}
+
+#p5 {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: bisque;
+}*/
+/*forum*/
+#bodyforum{
+    border: 0px;
+    margin: 0px;
+    background-image: url('../images/faqs.png');
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#conne, #nouveaucompte{
+    text-align: center;
+    color: white;
+}
+#centrer1, #centrer2{
+    margin-top: 5%;
+    border: 1px solid black;
+    box-shadow: 10px;
+    background-color: black;
+    width: 50%;
+    height: 100%;
+}
+#news, #new, #newss{
+    color:white;
+}
+#news:hover,#new:hover, #newss:hover{
+    text-decoration: none;
+    color: red;
+}
+/*Footer*/
+#footer, #pied{
+    text-align: center;
+    height: 100px;
+}
+.images{
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+/*A propos*/
+#propos .row{
+    height: 500px;
+    background-image: url('../images/background6.jpg');
+}
+#propos .row div{
+    /*text-align: center;*/
+    margin-left: 2%;
+    margin-top: 5%;
+    height: 350px;
+    background-color: rgba(15, 235, 15, 0.4);
+    color: white;
+    width: 22%;
+
+}
+#propos .row div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#propos .row #div2,#propos .row #div4{
+    margin-top: 10%;
+}
+#propos .row div:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*Dynamisme*/
+@media screen and (min-width:850px) and (max-width:1000px){
+    /*#blog1{
+        display: none;
+    }*/
+    #design{
+        display: none;
+    }
+    /*#propos .row div a img{
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }
+    .neub{
+        display: none;
+    }
+    #propos .row div{
+        /*text-align: center;/
+        margin-left: 2%;
+        margin-top: 5%;/
+        height: 350px;
+        background-color: white;
+        width: 40%;
+    
+    }*/
+    #blog1{
+        height: 100%;
+    }
+    .images{
+        width: 30px;
+        height: 30px;
+        margin-right: 3px;
+    }
+    #regler{
+        text-align:center;
+    }
+}
+@media screen and (max-width:849px){
+    .form-inline{
+        display: none;
+    }
+    .menunu a{
+        text-align:center;
+    }
+    .menunu a span{
+        font-size: 60%;
+    }
+    #regler{
+        text-align:center;
+    }
+    /*#blog1{
+        display: none;
+    }*/
+    #design{
+        display: none;
+    }
+    /*#propos .row div a img{
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+    }*/  
+    .neub{
+        display: none;
+    }
+    #tof{
+        display: none;
+    }
+    #blog1{
+        height:100%;
+    }
+    /*Footer*/
+    #footer, #pied{
+        text-align: center;
+        height: 100px;
+    }
+    .images{
+        width: 20px;
+        height: 20px;
+        margin-right: 2px;
+    }
+    /*A propos*/
+    #propos .row{
+        height: 100%;
+        background-color: wheat;
+    }
+    #propos .row div{
+        /*text-align: center;*/
+        margin-left: 2%;
+        margin-top: 5%;
+        height: 100%;
+        background-color: white;
+        width: 100%;
+
+    }
+    #propos .row div img{
+        width: 30px;
+        height: 30px;
+        border-radius: 100%;
+    }
+    #propos .row #div2,#propos .row #div4{
+        margin-top: 0%;
+    }
+    #propos .row div:hover{
+        background-color: rgba(15, 235, 15, 0.4);
+        color: white;
+    }
+}
